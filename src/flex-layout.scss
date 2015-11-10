@@ -40,7 +40,7 @@
   @include justify-content(center);
 }
 
-.row-horz-around{
+.row-horz-between{
   @include justify-content(between);
 }
 

@@ -2,17 +2,38 @@
 <html>
     <head>
         <link href="./dist/flex-layout.css" rel="stylesheet" type="text/css">
+        <link href="./example/index.css" rel="stylesheet" stype="text/css">
     </head>
     <body>
-        <div class="flex-row responsive-md flex-row-wrap row-vert-baseline" style="background-color:black;height:500px;">
-            <div class="flex-col col-33" style="background-color:red;height:200px">
+        <div class="head flex-row">
+            <div class="container-carousel responsive-carousel">
+                这是一个基于flex-layout构建的模仿airbnb的响应式网页布局的例子</br>
+                </br>
+                此处背景可使用循环播放的carousel控件
+                <div class="carousel flex-row row-horz-center">
+                    <div class="container-qr col-center" style="text-align:center;line-height: 200px">
+                        此处可以放网站二维码
+                    </div>
+                </div>
             </div>
-            <div class="flex-col col-33" style="background-color:green;height:200px">
+        </div>
+        <div class="flex-row responsive-md flex-row-wrap row-horz-around" style="margin-top:15px">
+            <div class="flex-col col-33 item-1">
+                此处是响应式的item
             </div>
-            <div class="flex-col col-33" style="background-color:green;height:200px">
+            <div class="flex-col col-33 item-1">
+                采用了flex的space-around布局
             </div>
-            <div class="flex-col col-33" style="background-color:green;height:200px">
+        </div>
+        <div class="flex-row responsive-md flex-row-wrap row-horz-center" style="margin-top:15px">
+            <div class="flex-col col-33 item-2">
             </div>
+            <div class="flex-col col-33 item-2">
+            </div>
+        </div>
+
+        <div class="foot">
+            Footer
         </div>
     </body>
 </html>

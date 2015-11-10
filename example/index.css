@@ -1,0 +1,52 @@
+.head {
+    width: 100%;
+    border: thin solid black;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.container-carousel {
+    height: 600px;
+    width: 100%;
+    border: thin solid black;
+    text-align: center;
+}
+
+.container-qr {
+    height: 200px;
+    width: 200px;
+    border: thin solid black;
+}
+
+.item-1 {
+    height: 200px;
+    border: thin solid black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.item-2 {
+    height: 200px;
+    border: thin solid black;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.foot {
+    height: 492px;
+    width: 100%;
+    border: thin solid blue;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 492px;
+}
+
+@media (max-width: 767px) {
+    .responsive-carousel {
+        height: 400px;
+    }
+}

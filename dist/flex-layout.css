@@ -67,7 +67,7 @@
   -moz-justify-content: center;
   justify-content: center; }
 
-.row-horz-around {
+.row-horz-between {
   -webkit-box-pack: between;
   -ms-flex-pack: between;
   -webkit-justify-content: between;
