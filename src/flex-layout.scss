@@ -7,6 +7,18 @@
     width: 100%;
 }
 
+.flex-direction-col{
+    @include flex-direction(column);
+}
+
+.flex-direction-row-rev {
+    @include flex-direction(row-reverse);
+}
+
+.flex-direction-col-rev {
+    @include flex-direction(column-reverse);
+}
+
 //Allow auto change line
 .flex-row-wrap {
     @include flex-wrap(wrap);
